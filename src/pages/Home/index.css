@@ -1,0 +1,42 @@
+.app {
+  width: 65%;
+  padding: 20px;
+  border: 1px solid #048;
+  box-sizing: border-box;
+}
+
+input {
+  width: 60%;
+  height: 30px;
+}
+
+.add {
+  margin-top: 1%;
+  background-color: #035;
+  color: #fff;
+  border: 0;
+  box-sizing: border-box;
+  width: 50%;
+  padding: 0.2%;
+}
+
+.list {
+  padding-top: 20px;
+}
+
+.item {
+  width: 60%;
+  border-bottom: 1px solid #000;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove {
+  border: 0;
+  background-color: rgb(212, 101, 101);
+  color: #fff;
+  padding: 10px;
+}
